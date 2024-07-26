@@ -69,6 +69,26 @@ def chatbot():
             print("Chatbot: Building strong relationships is important. Communication, trust, and understanding are key to any good relationship.")
         elif "environment" in user_input:
             print("Chatbot: Protecting the environment is crucial. Simple actions like recycling, reducing waste, and conserving water can make a big difference.")
+            print("Chatbot: Understanding hardware is important for technology enthusiasts. Learn about computer components, electronics, and how they work together.")
+        elif "web development" in user_input:
+            print("Chatbot: Web development involves creating and maintaining websites. Learn HTML, CSS, and JavaScript to get started.")
+        elif "app development" in user_input:
+            print("Chatbot: App development is an exciting field. Consider building apps for mobile devices or web applications.")
+        elif "tech news" in user_input:
+            print("Chatbot: Staying updated with tech news can help you understand industry trends. Follow tech blogs, news sites, and podcasts.")
+        elif "tech reviews" in user_input:
+            print("Chatbot: Tech reviews can help you make informed decisions about gadgets and software. Look for reviews from trusted sources.")
+        elif "programming languages" in user_input:
+            print("Chatbot: There are many programming languages to choose from. Python, JavaScript, and Java are popular choices for various applications.")
+        elif "coding tutorials" in user_input:
+            print("Chatbot: Coding tutorials can help you learn new skills. Look for online courses, video tutorials, and interactive coding platforms.")
+        elif "algorithm" in user_input:
+            print("Chatbot: Understanding algorithms is crucial for coding. Study sorting algorithms, search algorithms, and data structures.")
+        elif "data science" in user_input:
+            print("Chatbot: Data science involves analyzing and interpreting complex data. Learn about data analysis tools and techniques.")
+        elif "machine learning" in user_input:
+            print("Chatbot: Machine learning is a subset of AI. Study different algorithms and methods for training models and making predictions.")
+        
         else:
             print("Chatbot: I'm sorry, I didn't understand that. Can you please ask something else?")
 

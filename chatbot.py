@@ -88,8 +88,26 @@ def chatbot():
             print("Chatbot: Data science involves analyzing and interpreting complex data. Learn about data analysis tools and techniques.")
         elif "machine learning" in user_input:
             print("Chatbot: Machine learning is a subset of AI. Study different algorithms and methods for training models and making predictions.")
-        
-        else:
+        elif "cybersecurity" in user_input:
+            print("Chatbot: Cybersecurity is vital for protecting information. Learn about encryption, network security, and ethical hacking.")
+        elif "IT support" in user_input:
+            print("Chatbot: IT support involves helping users with technical issues. Develop problem-solving skills and knowledge of common software and hardware issues.")
+        elif "software engineering" in user_input:
+            print("Chatbot: Software engineering focuses on designing and developing software systems. Study software development methodologies and best practices.")
+        elif "technology careers" in user_input:
+            print("Chatbot: There are many careers in technology, including software development, IT support, and data analysis. Explore different roles to find what interests you.")
+        elif "apprenticeships" in user_input:
+            print("Chatbot: Apprenticeships combine work and study. Look for opportunities in your field of interest to gain practical experience while earning a qualification.")
+        elif "degree programs" in user_input:
+            print("Chatbot: Degree programs offer in-depth knowledge in various fields. Research programs that align with your career goals and interests.")
+        elif "UK universities" in user_input:
+            print("Chatbot: The UK has many prestigious universities. Consider institutions like Oxford, Cambridge, or Imperial College London for your studies.")
+        elif "student life" in user_input:
+            print("Chatbot: Student life can be vibrant and fulfilling. Get involved in clubs, societies, and social activities to make the most of your time.")
+        elif "university applications" in user_input:
+            print("Chatbot: Applying to university involves choosing courses, writing personal statements, and meeting application deadlines. Prepare well in advance.")
+        elif "scholarships" in user_input:
+            print("Chatbot: Scholarships can help fund your education. Look for scholarships based on academic achievement, financial need, or specific fields of study.")
+         else:
             print("Chatbot: I'm sorry, I didn't understand that. Can you please ask something else?")
-
 chatbot()

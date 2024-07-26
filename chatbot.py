@@ -56,3 +56,20 @@ def chatbot():
         elif "happiness" in user_input:
             print("Chatbot: Happiness is often found in the small things. Spend time with loved ones, pursue your hobbies, and always look for the silver lining.")
         elif "skills" in user_input:
+            print("Chatbot: Developing new skills can be very beneficial. Consider taking an online course in coding, cooking, or even photography.")
+        elif "space" in user_input:
+            print("Chatbot: Space is truly the final frontier. Did you know that a day on Venus is longer than a year on Venus?")
+        elif "fun" in user_input:
+            print("Chatbot: Fun can be had in many ways. You could play a board game, watch a comedy movie, or try out a new hobby.")
+        elif "fashion" in user_input:
+            print("Chatbot: Fashion is a great way to express yourself. Try experimenting with different styles and colors to find what suits you best.")
+        elif "shopping" in user_input:
+            print("Chatbot: Shopping can be a fun activity, but remember to stick to your budget! Look out for sales and discounts to get the best deals.")
+        elif "relationships" in user_input:
+            print("Chatbot: Building strong relationships is important. Communication, trust, and understanding are key to any good relationship.")
+        elif "environment" in user_input:
+            print("Chatbot: Protecting the environment is crucial. Simple actions like recycling, reducing waste, and conserving water can make a big difference.")
+        else:
+            print("Chatbot: I'm sorry, I didn't understand that. Can you please ask something else?")
+
+chatbot()

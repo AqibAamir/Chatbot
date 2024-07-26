@@ -33,3 +33,26 @@ def chatbot():
         elif "technology" in user_input:
             print("Chatbot: Technology is evolving rapidly. Did you hear about the latest advancements in AI? It's fascinating how it's changing our world.")
         elif "history" in user_input:
+        elif "history" in user_input:
+            print("Chatbot: History is full of interesting events. Did you know that the Great Wall of China is over 13,000 miles long?")
+        elif "language" in user_input:
+            print("Chatbot: Learning a new language can be very rewarding. Spanish and French are popular choices, but Mandarin is also incredibly useful.")
+        elif "career" in user_input:
+            print("Chatbot: Career planning is important. Think about your passions and strengths, and consider what kind of work will be fulfilling for you.")
+        elif "investment" in user_input:
+            print("Chatbot: Investing wisely can secure your financial future. Consider diversifying your portfolio with stocks, bonds, and real estate.")
+        elif "health" in user_input:
+            print("Chatbot: Health is wealth! Make sure to eat a balanced diet, exercise regularly, and get plenty of sleep.")
+        elif "science" in user_input:
+            print("Chatbot: Science is all about discovery! Did you know that water expands when it freezes, which is why ice floats on water?")
+        elif "art" in user_input:
+            print("Chatbot: Art is a wonderful form of expression. Have you tried visiting a local art gallery or creating your own artwork?")
+        elif "pets" in user_input:
+            print("Chatbot: Pets can bring a lot of joy to your life. Dogs are loyal and playful, while cats are independent and affectionate.")
+        elif "games" in user_input:
+            print("Chatbot: Video games can be a fun way to relax. Have you played 'The Legend of Zelda: Breath of the Wild'? It's a fantastic adventure game.")
+        elif "news" in user_input:
+            print("Chatbot: Staying informed is important. You can read the latest news online or watch news broadcasts to keep up with current events.")
+        elif "happiness" in user_input:
+            print("Chatbot: Happiness is often found in the small things. Spend time with loved ones, pursue your hobbies, and always look for the silver lining.")
+        elif "skills" in user_input:

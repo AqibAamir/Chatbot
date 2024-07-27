@@ -108,6 +108,32 @@ def chatbot():
             print("Chatbot: Applying to university involves choosing courses, writing personal statements, and meeting application deadlines. Prepare well in advance.")
         elif "scholarships" in user_input:
             print("Chatbot: Scholarships can help fund your education. Look for scholarships based on academic achievement, financial need, or specific fields of study.")
+        elif "communication skills" in user_input:
+            print("Chatbot: Good communication skills are important for success. Practice speaking clearly, listening actively, and writing effectively.")
+        elif "public speaking" in user_input:
+            print("Chatbot: Public speaking can improve your confidence. Practice your speeches, know your audience, and use visual aids effectively.")
+        elif "networking events" in user_input:
+            print("Chatbot: Networking events are opportunities to connect with professionals. Prepare your elevator pitch and be open to meeting new people.")
+        elif "professional associations" in user_input:
+            print("Chatbot: Joining professional associations can provide career support and networking opportunities. Look for groups related to your field.")
+        elif "mentorship" in user_input:
+            print("Chatbot: Finding a mentor can provide valuable guidance. Seek out experienced professionals who can offer advice and support.")
+        elif "career exploration" in user_input:
+            print("Chatbot: Exploring different careers can help you find your passion. Consider internships, informational interviews, and job shadowing.")
+        elif "volunteering" in user_input:
+            print("Chatbot: Volunteering can provide valuable experience and connections. Look for opportunities that align with your interests and skills.")
+        elif "extracurricular activities" in user_input:
+            print("Chatbot: Extracurricular activities can enhance your resume. Get involved in clubs, sports, or community service.")
+        elif "student organizations" in user_input:
+            print("Chatbot: Joining student organizations can provide leadership experience and help you connect with peers who share your interests.")
+        elif "personal projects" in user_input:
+            print("Chatbot: Working on personal projects can showcase your skills. Consider building a website, app, or creative piece related to your interests.")
+        elif "freelancing" in user_input:
+            print("Chatbot: Freelancing offers flexibility and experience. Explore platforms like Upwork or Fiverr to find freelance opportunities in your field.")
+        elif "entrepreneurial skills" in user_input:
+            print("Chatbot: Entrepreneurial skills include creativity, resilience, and strategic thinking. Develop these skills through practice and learning.")
+        elif "digital skills" in user_input:
+            print("Chatbot: Digital skills are essential in today's job market. Learn about digital tools, social media, and online marketing.")
          else:
             print("Chatbot: I'm sorry, I didn't understand that. Can you please ask something else?")
 chatbot()
